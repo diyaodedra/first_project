@@ -1,0 +1,4 @@
+SELECT `COL 1`, `COL 3`,`COL 4`, (`COL 4`/`COL 3`)*100 as ROI, (`COL 3`-`COL 7`) as Net_Effect
+FROM `ai_financial_market_daily_realistic_synthetic` 
+WHERE `COL 2` like 'Meta'
+order by 1,2,3
